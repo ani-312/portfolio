@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+  padding: 3rem 0;
+  color: #fff;
+}
+
+.gradient1 {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.gradient2 {
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.gradient3 {
+  background: linear-gradient(135deg, #5ee7df, #b490ca);
+}
+
+.gradient4 {
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: #fff;
+  color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background: #007BFF;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #4facfe;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
